@@ -10,7 +10,7 @@ const PublicDirectoryPath=path.join(__dirname,'../public');
 app.use(express.static(PublicDirectoryPath));
 app.listen();
 io.on('connection',()=>{
-    console.log('New websocket new nwe connection');
+    console.log('New websocket new nwe new new new connection');
 })
 server.listen(port,()=>{
     console.log(`server is up on port ${port}!`);
